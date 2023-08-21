@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+// shebang
 import sumoftwo from "./sum.js";
 import subtractoftwo from "./subtract.js";
 import divisionoftwo from "./division.js";
@@ -5,8 +7,8 @@ import multiplyoftwo from "./multiply.js";
 import modulusoftwo from "./modulus.js";
 import exponentoftwo from "./exponent.js";
 import inquirer from "inquirer";
-import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
+import chalk from "chalk";
 import banner from "node-banner";
 async function banner_text() {
     await new Promise((res) => {
@@ -24,7 +26,7 @@ async function welcome_text() {
     let rainbow_text = chalkAnimation.rainbow("\t Let's start Calculation ");
     await sleep();
     rainbow_text.stop();
-    console.log(chalk.gray(`
+    console.log(chalk.greenBright(`
      _____________________
     |  _________________  |
     | | JO           0. | |
@@ -49,8 +51,8 @@ async function userInput() {
         {
             name: "Operator",
             type: "list",
-            message: chalk.bold.rgb(6, 3, 3)("Which operation do you want to perform?"),
-            choices: ["Addition", "Subtraction", "Multiplication", "Division", "Exponent", "Modulus"]
+            message: chalk.bold.blueBright("Which operation do you want to perform?\n \t"),
+            choices: ["Addition", "Subtraction", "Multiplication", "Division", "Exponent", "Modulus"],
         },
         {
             name: "input_1",
