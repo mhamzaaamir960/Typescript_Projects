@@ -1,10 +1,10 @@
 {
-  "name": "hamza-calculator_project",
+  "name": "hamza_no-guessing-game_project",
   "version": "1.0.0",
-  "description": "Typescript mini projects!",
-  "main": "./01_Calculator_project/ES_Calculator/index.js",
+  "description": "Typescript mini project (student of PIAIC)",
+  "main": "./02_no-guessing-game_project/main.js",
   "type": "module",
-  "bin": "./01_Calculator_project/ES_Calculator/index.js",
+  "bin": "./02_no-guessing-game_project/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
