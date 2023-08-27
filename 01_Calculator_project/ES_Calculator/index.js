@@ -51,7 +51,7 @@ async function userInput() {
         {
             name: "Operator",
             type: "list",
-            message: chalk.bold.blueBright("Which operation do you want to perform?\n \t"),
+            message: chalk.bold.magentaBright("Which operation do you want to perform?\n \t"),
             choices: ["Addition", "Subtraction", "Multiplication", "Division", "Exponent", "Modulus"],
         },
         {
@@ -95,7 +95,7 @@ async function run_again() {
             {
                 name: "restart",
                 type: String,
-                message: chalk.redBright("Do you want to restart again? Press yes or not: "),
+                message: chalk.redBright("Do you want to restart again? (yes/no)"),
             }
         ]);
     } while (again.restart === "yes" || again.restart === "Yes");

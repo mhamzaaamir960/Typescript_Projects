@@ -17,7 +17,8 @@
     "hamza-calculator_project": "^1.0.0",
     "inquirer": "^9.2.10",
     "node-banner": "^1.4.0",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
