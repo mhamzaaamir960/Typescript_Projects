@@ -1,17 +1,19 @@
 {
   "name": "to-do-list",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is todo list in which add,view and delete tasks",
+  "main": "main.js",
   "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.11",
+    "node-banner": "^1.4.0",
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
