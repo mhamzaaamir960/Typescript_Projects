@@ -8,4 +8,4 @@ export function add_task() {
     let description: string = prompt(chalk.yellowBright("Write your task here: "));
     index = tasks.length + 1;
     tasks.push({index,description});
-    }
+    }             
